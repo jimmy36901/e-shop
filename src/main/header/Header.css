@@ -1,0 +1,60 @@
+.nav_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LogoName {
+  font-weight: 600;
+}
+.main_logo {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.main_subtitle {
+  color: var(--whiteGray);
+  text-align: center;
+}
+.menu {
+  display: flex;
+}
+li {
+  padding: 5px;
+}
+.nav_icons {
+  display: flex;
+}
+.nav_icons span {
+  padding: 5px;
+}
+.hamburger {
+  display: none;
+}
+.fav_icon,
+.cart_icon {
+  position: relative;
+  cursor: pointer;
+}
+.badge_icon {
+  position: absolute;
+  top: 50%;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  background-color: var(--whiteGray);
+  z-index: 10;
+  cursor: pointer;
+}
+.nav_user {
+  cursor: pointer;
+}

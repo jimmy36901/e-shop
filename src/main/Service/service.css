@@ -1,0 +1,9 @@
+.service {
+  padding: 4rem;
+}
+.service_item {
+  cursor: pointer;
+}
+.service_text {
+  font-size: 1rem;
+}

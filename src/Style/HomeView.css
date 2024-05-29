@@ -1,0 +1,16 @@
+.hero_section {
+  padding: 4rem;
+}
+.hero_subtitle {
+  color: var(--whiteGray);
+}
+.trending_products {
+  padding: 4rem;
+}
+.hero_title {
+  margin: 1rem 0rem 0.5rem;
+}
+.hero_text {
+  color: var(--whiteGray);
+  margin: 0.5rem 0rem 1rem;
+}

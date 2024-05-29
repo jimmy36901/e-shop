@@ -1,0 +1,14 @@
+.product_info {
+  margin-top: 20px;
+}
+.product_img {
+  cursor: pointer;
+}
+.product_plus {
+  padding: 5px;
+  background-color: #10172a;
+  color: white;
+  border-radius: 50%;
+  user-select: none;
+  cursor: pointer;
+}
